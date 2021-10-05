@@ -658,7 +658,8 @@ ul {
   transition: transform var(--transition-duration) var(--timing-function);
 }
 
-.portfolio .list-item .link:hover .portfolio-desription {
+.portfolio .list-item .link:hover .portfolio-desription,
+.portfolio .list-item .link:focus .portfolio-desription {
   transform: translateY(0%);
 }
 
