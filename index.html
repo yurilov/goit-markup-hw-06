@@ -350,6 +350,28 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+           <form>
+               <p>Оставьте свои данные, мы вам перезвоним</p>
+               <label>
+                    Имя
+                    <input type="text" name="name">
+               </label>
+               <label>
+                    Телефон
+                    <input type="tel" name="phone_number">
+               </label>
+               <label>
+                    Почта
+                    <input type="email" name="email">
+               </label>
+               <label>
+                    Комментарий
+                    <input type="text" placeholder="Введите текст">
+               </label>
+               <label>
+                    <input type="checkbox" name="privacy-policy" value="Соглашаюсь с рассылкой и принимаю Условия договора"/>
+               </label>
+           </form>
         </div>
     </div>
 
@@ -400,6 +422,20 @@
                     </li>
             
                 </ul>
+            </div>
+            <div class="footer-newsletter">
+                <form class="footer-newsletter-form">
+                    <label class="footer-newsletter-label">
+                        Подпишитесь на рассылку
+                        <input type="email" name="email" placeholder="E-mail" class="footer-newsletter-input">
+                    </label>
+                    <button type="submit" class="button">
+                        Подписаться
+                        <svg class="newsletter-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
        </div>
    </footer>

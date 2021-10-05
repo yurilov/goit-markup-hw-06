@@ -246,6 +246,69 @@ ul {
   fill: var(--primary-white-color);
 }
 
+.footer-newsletter {
+  margin-left: 93px;
+}
+.footer-newsletter-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-newsletter-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-newsletter-input {
+  padding: 15px 16px;
+  margin-top: 20px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  background-color: transparent;
+  box-shadow: inset 0px 4px 4px var(--hero-button-shadow);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-white-color);
+}
+
+.footer-newsletter .button {
+  min-width: 200px;
+  padding: 10px 29px;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px var(--hero-button-shadow);
+  border-radius: 4px;
+
+  transition: background-color var(--transition-duration) var(--timing-function);
+}
+
+.footer-newsletter .button:hover,
+.footer-newsletter .button:focus {
+  background-color: var(--hero-button-hover);
+}
+
+.newsletter-icon {
+  margin-left: 10px;
+}
+
 /* Герой */
 
 .hero {
@@ -569,6 +632,15 @@ ul {
   cursor: pointer;
 }
 
+.modal-btn-close:hover .modal-btn-icon {
+  fill: var(--accent-color);
+}
+
+.modal-btn-icon {
+  fill: var(--logo-color);
+  transition: fill var(--transition-duration) var(--timing-function);
+}
+
 /* Портфолио */
 
 .filter {
@@ -580,6 +652,7 @@ ul {
 .filter .list-item:not(:last-child) {
   margin-right: 8px;
 }
+
 .filter-selection {
   padding: 6px 22px;
   font-family: 'Roboto', sans-serif;
