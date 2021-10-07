@@ -641,6 +641,77 @@ ul {
   transition: fill var(--transition-duration) var(--timing-function);
 }
 
+.modal-title {
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+
+  color: var(--title-text-color);
+}
+
+.modal-form {
+  padding: 40px;
+}
+
+.modal .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-field.privacy {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-field label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+}
+
+.form-field textarea {
+  resize: none;
+}
+.form-field label[for='privacy-policy'] {
+  font-size: 14px;
+  line-height: calc(24 / 12);
+}
+
+.form-field input[type='checkbox'] {
+}
+
+.form-btn {
+  min-width: 200px;
+  padding: 10px 55px;
+  display: flex;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px var(--hero-button-shadow);
+  border-radius: 4px;
+  transition: background-color var(--transition-duration) var(--timing-function);
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background-color: var(--hero-button-hover);
+}
+
 /* Портфолио */
 
 .filter {
